@@ -3,7 +3,7 @@ Summary:        Zotero is a free, easy-to-use tool to help you collect, organize
 License:        GNU AGPLv3
 
 Version:		5.0.44
-Release:        2%{?dist}
+Release:        3%{?dist}
 
 URL:            https://www.zotero.org
 
@@ -62,6 +62,9 @@ desktop-file-validate %{_datadir}/applications/%{name}.desktop &> /dev/null || :
 /usr/share/icons/hicolor/256x256/apps/zotero.png
 
 %changelog
+* Wed Apr 11 2018 Maxim Schuwalow <mschuwalow@uos.de> 5.0.44-3
+- new package built with tito
+
 * Wed Apr 11 2018 Maxim Schuwalow <mschuwalow@uos.de> 5.0.44-2
 - updated project configuration
 
