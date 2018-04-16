@@ -22,6 +22,7 @@ Source0:        %{git_url}/tarball/%{git_rev}#/%{git_owner}-%{name}-%{abbrev}.ta
 
 Requires: libgit2
 
+BuildRequires: git
 BuildRequires: rust
 BuildRequires: cargo
 
