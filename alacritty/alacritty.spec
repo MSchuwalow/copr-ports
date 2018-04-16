@@ -69,3 +69,8 @@ desktop-file-validate %{_datadir}/applications/alacritty.desktop &> /dev/null ||
 %{_datadir}/terminfo/*
 
 %changelog
+* Mon Apr 16 2018 MSchuwalow <mschuwalow@uos.de> git20180416.1b7ffea-1
+- switched to explicit hashes instead of autodiscovery for easier old builds
+  (mschuwalow@uos.de)
+- removed old alacritty sources (mschuwalow@uos.de)
+
