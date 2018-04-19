@@ -2,8 +2,8 @@ Name:           zotero
 Summary:        Zotero is a free, easy-to-use tool to help you collect, organize, cite, and share your research sources. https://www.zotero.org
 License:        GNU AGPLv3
 
-Version:		5.0.44
-Release:        3%{?dist}
+Version:		5.0.45
+Release:        1%{?dist}
 
 URL:            https://www.zotero.org
 
