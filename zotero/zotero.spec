@@ -62,6 +62,9 @@ desktop-file-validate %{_datadir}/applications/%{name}.desktop &> /dev/null || :
 /usr/share/icons/hicolor/256x256/apps/zotero.png
 
 %changelog
+* Thu Apr 19 2018 MSchuwalow <mschuwalow@uos.de> 5.0.45-1
+- update zotero version (mschuwalow@uos.de)
+
 * Wed Apr 11 2018 Maxim Schuwalow <mschuwalow@uos.de> 5.0.44-3
 - new package built with tito
 
